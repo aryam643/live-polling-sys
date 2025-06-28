@@ -3,41 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "description": "Socket.io server for live polling system",
-  "main": "server.js",
+  "main": "scripts/enhanced-socket-server.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node scripts/enhanced-socket-server.js",
     "build": "echo 'Backend only - no build needed'",
-    "start": "node server.js",
-    "lint": "next lint",
+    "start": "node scripts/enhanced-socket-server.js",
     "socket-server": "node scripts/enhanced-socket-server.js"
   },
   "dependencies": {
-    "next": "14.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "socket.io": "^4.7.4",
-    "socket.io-client": "4.7.4",
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "@reduxjs/toolkit": "2.0.1",
-    "react-redux": "9.0.4",
-    "lucide-react": "0.294.0",
-    "@radix-ui/react-slot": "1.0.2",
-    "@radix-ui/react-progress": "1.0.3",
-    "@radix-ui/react-select": "2.0.0",
-    "class-variance-authority": "0.7.0",
-    "clsx": "2.0.0",
-    "tailwind-merge": "2.0.0",
-    "tailwindcss-animate": "1.0.7"
-  },
-  "devDependencies": {
-    "typescript": "5.3.0",
-    "@types/node": "20.10.0",
-    "@types/react": "18.2.0",
-    "@types/react-dom": "18.2.0",
-    "tailwindcss": "3.3.6",
-    "autoprefixer": "10.4.16",
-    "postcss": "8.4.32"
+    "socket.io": "4.7.4",
+    "express": "4.18.2",
+    "cors": "2.8.5"
   },
   "engines": {
     "node": ">=18.0.0"
